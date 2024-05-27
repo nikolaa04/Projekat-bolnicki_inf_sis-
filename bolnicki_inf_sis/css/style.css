@@ -1,0 +1,161 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.card {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+select {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    width: 100%;
+}
+
+button[type="submit"],
+.btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover,
+.btn:hover {
+    background-color: #0056b3;
+}
+/* Dodajemo razmak između redova i kolona */
+.row {
+    margin-bottom: 20px;
+}
+
+.col-md-6 {
+    padding: 0 15px; /* Dodajemo horizontalni razmak unutar kolona */
+}
+.search-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-form .form-row {
+    margin-bottom: 20px; /* Povećavamo vertikalni razmak između form redova */
+}
+
+.search-form input[type="text"],
+.search-form input[type="number"] {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    width: 100%;
+}
+
+.search-form button[type="submit"] {
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+}
+
+.search-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.btn-unos-pacijenta {
+    margin-top: 20px; 
+}
+/* Dodajemo stil za dugmad na stranici */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Stil za alerte */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.alert-info {
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+}
+
+/* Stil za kartice */
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
